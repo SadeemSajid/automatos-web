@@ -1,21 +1,14 @@
 <script lang="ts">
-	import { Button } from './ui/button';
+	function scroll(id: string) {
+		document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+	}
 </script>
 
-<div
-	class="content-margin mt-4 flex justify-between border-b-[1px] border-primary border-opacity-50 py-4"
->
-	<div class="flex gap-8">
-		<img src="" alt="" />
-		<h1 class="font-mono">Automatos.</h1>
+<header class="absolute flex w-full items-center justify-between py-8">
+	<img src="logo-white.png" class="ml-44 w-12" alt="Automatos Logo" />
+	<div class="mr-44 flex gap-8">
+		<a href="#home" on:click={() => scroll('home')}><p>Home</p></a>
+		<a href="#home" on:click={() => scroll('middle')}><p>Services</p></a>
+		<a href="#home" on:click={() => scroll('home')}><p>Portfolio</p></a>
 	</div>
-	<div class="flex gap-8">
-		<a href="#"><p>Home</p></a>
-		<a href="#"><p>Services</p></a>
-		<a href="#"><p>Portfolio</p></a>
-	</div>
-
-	<div>
-		<Button>Let's Talk 🥳</Button>
-	</div>
-</div>
+</header>

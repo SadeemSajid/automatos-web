@@ -60,7 +60,7 @@
 /* HTML TAGS */
 
 p {
-	@apply font-mono;
+	@apply font-sans;
 }
 
 h1 {
