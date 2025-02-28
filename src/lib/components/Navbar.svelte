@@ -9,6 +9,5 @@
 	<div class="mr-44 flex gap-8">
 		<a href="#home" on:click={() => scroll('home')}><p>Home</p></a>
 		<a href="#home" on:click={() => scroll('middle')}><p>Services</p></a>
-		<a href="#home" on:click={() => scroll('home')}><p>Portfolio</p></a>
 	</div>
 </header>

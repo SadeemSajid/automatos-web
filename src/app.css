@@ -64,7 +64,11 @@ p {
 }
 
 h1 {
-	@apply text-xl font-bold;
+	@apply text-7xl font-bold;
+}
+
+h3 {
+	@apply text-4xl;
 }
 
 /* GLOBALS */
