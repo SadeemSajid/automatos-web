@@ -7,8 +7,11 @@
 		<div class="">
 			<h1 class="text-4xl font-normal">Automatos</h1>
 		</div>
-		<div class="flex space-x-4">
-			<a href="#" class="text-gray-400 hover:text-white">Contact Us</a>
+		<div class="flex flex-col gap-2">
+			<p class="font-mono">queries@automatos.dev</p>
+			<a href="https://www.automatos.dev" class="w-fit hover:text-blue-400"
+				><p class="font-mono">www.automatos.dev</p></a
+			>
 		</div>
 	</div>
 </footer>
