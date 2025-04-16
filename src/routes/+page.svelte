@@ -14,10 +14,6 @@
 			<h1 class="font-normal">
 				Let <span class="text-pink font-bold">us</span> tackle the problems.
 			</h1>
-			<Button
-				class="font-josefin mt-12 w-56 rounded-md border-2 border-white bg-transparent py-7 text-2xl text-white hover:text-black"
-				>Let’s Talk :D</Button
-			>
 		</div>
 
 		<!-- Image -->
@@ -29,7 +25,7 @@
 	</div>
 
 	<!-- Rest of the page -->
-	<div id="middle" class="mt-32 h-screen pt-64">
+	<div id="middle" class="mt-32 h-screen pt-20 lg:pt-64">
 		<div class="flex flex-col items-center justify-center lg:flex-row">
 			<!-- Text -->
 			<div class="flex flex-col lg:w-[800px]">
@@ -47,5 +43,10 @@
 
 		<!-- TODO -->
 		<!-- 3 columns -->
+	</div>
+
+	<div id="services" class="mb-96 flex flex-col items-center justify-center">
+		<h2 class="mb-12 text-5xl">Some Cool Tech :)</h2>
+		<img src="tech.png" class="w-[500px]" alt="" />
 	</div>
 </div>
