@@ -38,14 +38,14 @@
 			</div>
 
 			<!-- Graphic -->
-			<img src="green-diamonds.png" class="mt-24 w-48 lg:mt-0 lg:w-96" alt="" />
+			<img src="green-diamonds.png" class="mt-12 w-48 lg:mt-0 lg:w-96" alt="" />
 		</div>
 
 		<!-- TODO -->
 		<!-- 3 columns -->
 	</div>
 
-	<div id="services" class="mb-96 flex flex-col items-center justify-center">
+	<div id="services" class="mb-96 mt-48 flex flex-col items-center justify-center lg:mt-12">
 		<h2 class="mb-12 text-5xl">Some Cool Tech :)</h2>
 		<img src="tech.png" class="w-[500px]" alt="" />
 	</div>
